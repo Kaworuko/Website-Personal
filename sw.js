@@ -2,8 +2,8 @@ const CACHE_NAME = 'offline-cache-v1';
 const urlsToCache = [
     '/',
     '/index.html',
-    '/styles.css',
-    '/script.js',
+    '/index.css',
+    '/index.js',
 ];
 
 // Install Service Worker
