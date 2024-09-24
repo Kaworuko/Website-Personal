@@ -1,7 +1,7 @@
 const CACHE_NAME = 'offline-cache-v1';
 const urlsToCache = [
     '/',
-    '/main_index.html',
+    '/index.html',
     '/index.css',
     '/index.js',
 ];
