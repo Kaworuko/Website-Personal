@@ -1,0 +1,15 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: px;
+}
+
+#real_time_clock {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#top_text{
+    font-size: 18px;
+    font-weight: normal;
+}
