@@ -7,9 +7,9 @@
     "theme_color": "#4CAF50",
     "icons": [
         {
-            "src": "icon.png",
+            "src": "Kaoruko_smile.jpg",
             "sizes": "192x192",
-            "type": "image/png"
+            "type": "image/jpg"
         }
     ]
 }

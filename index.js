@@ -1,3 +1,12 @@
+const toggle = document.getElementById('toggle');
+toggle.addEventListener('change', () => {
+    if (toggle.checked) {
+        console.log('Switch ON');
+    } else {
+        console.log('Switch OFF');
+    }
+});
+
 function updateClock() {
     const now = new Date();
     const hours = now.getHours().toString().padStart(2, '0');

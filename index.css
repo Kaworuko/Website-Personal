@@ -10,6 +10,64 @@ body {
 }
 
 #top_text{
-    font-size: 18px;
+    font-size: 19px;
     font-weight: normal;
+}
+
+#top_text_2{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.container{
+    background-color: lightblue;
+    padding: 30px;
+    border: 2px solid #020202;
+}
+
+/*Program Untuk Switch Button Animation*/
+.switch{
+    position: relative;
+    display: inline-block;
+    width: 80px;
+    height: 34px;
+}
+
+.switch input{
+    opacity: 0; /*Sembunyikan Checkbox*/ 
+    width: 0;
+    height: 0;
+}
+
+.slider{
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fa0000;
+    transition: .5s; /* Transisi untuk animasi */
+    border-radius: 34px; /* Bentuk bulat */
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 5px;
+    bottom: 4px;
+    background-color: white;
+    transition: .8s; /* Transisi untuk animasi */
+    border-radius: 50%; /* Bulat */
+}
+
+/* Ketika checkbox aktif */
+input:checked + .slider {
+    background-color: #00ff08; /* Warna hijau */
+}
+
+input:checked + .slider:before {
+    transform: translateX(45px); /* Pindah ke kanan */
 }
