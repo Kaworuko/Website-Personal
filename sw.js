@@ -3,7 +3,8 @@ const urlsToCache = [
     '/',
     '/index.html',
     '/index.css',
-    '/index.js',
+    '/index_rtc.js',
+    '/index_slider.js',
 ];
 
 // Install Service Worker
